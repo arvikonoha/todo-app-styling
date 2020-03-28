@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <header class="disp-flex fl-jc-sb pd-1 container">
+      <a href="/index-auth.html"><h1 id="main-logo">Ultimate notes</h1></a>
+
+      <nav id="main-nav">
+        <ul>
+          <li>
+            <a class="mr-1" href="/signup.html"
+              ><i class="fas fa-user-plus"></i> Sign up</a
+            >
+          </li>
+          <li>
+            <a class="mr-1" href="/login.html">
+              <i class="fas fa-sign-in-alt"></i> Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="disp-flex fl-jc-ce container">
+      <form class="card pd-2" action="">
+        <h2 class="mb-2">Sign up as a new user</h2>
+        <label for="email">Email</label><br />
+        <input
+          class="mb-2"
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <label for="user">User name</label><br />
+        <input
+          class="mb-2"
+          type="text"
+          name="user"
+          id="user"
+          placeholder="Enter your username"
+        />
+        <label for="password">Password</label><br />
+        <input
+          class="mb-2"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <label for="cpassword">Confirm password</label><br />
+        <input
+          class="mb-2"
+          type="password"
+          name="cpassword"
+          id="cpassword"
+          placeholder="Confirm your password"
+        />
+        <input type="submit" id="submit" value="Sign up" /> <br />
+        <br />
+        <p>
+          Already have an account?
+          <a href="/login.html">Press this</a> to login
+        </p>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/4eec0e39bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

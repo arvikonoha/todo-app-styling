@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <header class="disp-flex fl-jc-sb pd-1 container">
+      <a href="/index-auth.html"><h1 id="main-logo">Ultimate notes</h1></a>
+
+      <nav id="main-nav">
+        <ul>
+          <li>
+            <a class="mr-1" href="/archives.html"
+              ><i class="fas fa-archive"></i> Archives</a
+            >
+          </li>
+          <li>
+            <a class="mr-1" href=""
+              ><i class="fas fa-sign-out-alt"></i> Log out</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="disp-flex fl-jc-ce container">
+      <form class="card pd-2" action="">
+        <h2 class="mb-2">Edit your note</h2>
+        <label for="title">Title</label><br />
+        <input
+          class="mb-2"
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Change your title"
+        />
+        <label for="body">More information</label><br />
+        <textarea
+          rows="4"
+          class="mb-2"
+          type="text"
+          name="body"
+          id="body"
+          placeholder="Change the note description"
+        ></textarea>
+        <label for="completed" style="margin-right: 4px;"
+          >Is the task completed</label
+        >
+        <input
+          class="mb-2"
+          type="checkbox"
+          name="completed"
+          id="completed"
+        /><br /><br />
+        <input class="mr-1" type="submit" id="submit" value="Submit changes" />
+        <a href="/index-auth.html">Cancel </a>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/4eec0e39bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
